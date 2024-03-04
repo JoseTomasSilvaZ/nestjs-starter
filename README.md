@@ -34,6 +34,14 @@ $ npm install
 
 Setup your .env file, you can use the .env.example (rename it to .env) file that contains the required variables to start the server
 
+Run prisma generation
+
+```bash
+$ npx prisma generate
+or
+$ npm run prisma:generate
+```
+
 Run the server in dev mode
 
 ```bash
